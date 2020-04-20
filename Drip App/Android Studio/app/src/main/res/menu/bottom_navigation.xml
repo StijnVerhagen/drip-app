@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_game"
+        android:icon="@drawable/ic_videogame_asset_black_24dp"
+        android:title="Game"/>
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Overzicht" />
+    <item
+        android:id="@+id/nav_shop"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"
+        android:title="Shop"/>
+
+
+
+</menu>

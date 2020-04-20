@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+            android:title="Dripcoins" />
+
+        <item
+            android:id="@+id/nav_personsettings"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Account beheren" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
+        <item
+            android:id="@+id/uitloggen"
+            android:icon="@drawable/icons8_logout_rounded_left_32"
+            android:title="Uitloggen"
+            android:onClick="logout"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="Share"
+                android:onClick="share"/>
+
+            <item
+                android:id="@+id/over_ons"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="Over ons"
+                android:onClick="over_ons"/>
+        </menu>
+    </item>
+
+
+</menu>
